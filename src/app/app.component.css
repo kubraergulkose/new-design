@@ -1,0 +1,29 @@
+.header {
+    margin-top: 100px;
+}
+
+ejs-menu {
+    width: 100%;
+    height: 75px;
+    display: flex!important;
+    justify-content: flex-end!important;
+    align-items: center!important;
+
+}
+
+.e-checked::before{
+    content:'\ea84'!important;
+}
+
+.logo {
+    background-image: url("/assets/logo.svg");
+    width: 150px!important;
+    height: 50px!important;
+}
+
+.custom-icon {
+ 
+    background-repeat: no-repeat;
+    margin: 0px 4px;
+}
+
