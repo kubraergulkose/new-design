@@ -15,6 +15,19 @@ ejs-menu {
     content:'\ea84'!important;
 }
 
+.e-checked {
+    color: black!important;
+}
+
+
+.e-remove::before{
+    content:'\e974'!important;
+}
+
+.e-remove {
+    color: black!important;
+}
+
 .logo {
     background-image: url("/assets/logo.svg");
     width: 150px!important;
@@ -24,7 +37,7 @@ ejs-menu {
 .custom-icon {
  
     background-repeat: no-repeat;
-    margin: 0px 4px;
+    margin: 0px!important;
 }
 
 
@@ -40,39 +53,39 @@ ejs-menu {
     display: flex!important;
     align-items: center;
     justify-content: center;
-    color: red!important;
+    color: orangered!important;
 }
 
 
-.e-bullet-yellow::before{
+.e-bullet-orange::before{
     content:'\e270'!important;
     font-size: 100px;
 }
 
-.e-bullet-yellow {
+.e-bullet-orange {
     width: 30px!important;
     margin-right: -20px!important;
     margin-bottom: 0px!important;
     display: flex!important;
     align-items: center;
     justify-content: center;
-    color: yellow!important;
+    color: orange!important;
 }
 
 
-.e-bullet-green::before{
+.e-bullet-blue::before{
     content:'\e270'!important;
     font-size: 100px;
 }
 
-.e-bullet-green {
+.e-bullet-blue {
     width: 30px!important;
     margin-right: -20px!important;
     margin-bottom: 0px!important;
     display: flex!important;
     align-items: center;
     justify-content: center;
-    color: green!important;
+    color: blue!important;
 }
 
 .e-menu-item text {
@@ -96,4 +109,8 @@ ejs-menu {
     outline-offset: 0;
     background: transparent!important;
 }
+
+ .e-menu-item {
+    margin-right: 10px;
+ }
 
