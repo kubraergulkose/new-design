@@ -10,6 +10,10 @@ enableRipple(true);
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
+
+  public errorNum = '5';
+  public warningNum = '0';
+  public successNum = '0';
   constructor() {
    
   }
@@ -18,8 +22,16 @@ export class AppComponent {
     // Menu items definition 
   public menuItems: MenuItemModel[] = [
     {
-      text: 'File',
-      iconCss: 'em-icons e-file',
+      text: this.successNum,
+      iconCss: 'e-icons e-bullet-green',
+    },
+    {
+      text: this.warningNum,
+      iconCss: 'e-icons e-bullet-yellow',
+    },
+    {
+      text: this.errorNum,
+      iconCss: 'e-icons e-bullet-red',
     },
     {
       iconCss:'e-icons e-checked',
